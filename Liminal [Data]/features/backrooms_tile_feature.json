@@ -1,0 +1,30 @@
+{
+	"format_version": "1.13.0",
+	"minecraft:weighted_random_feature": {
+		"description": {
+			"identifier": "liminal:backrooms_tile_feature"
+		},
+		"features": [
+			[
+				"liminal:backrooms_tiles/backrooms_tile_1",
+				1
+			],
+			[
+				"liminal:backrooms_tiles/backrooms_tile_2",
+				1
+			],
+			[
+				"liminal:backrooms_tiles/backrooms_tile_3",
+				1
+			],
+			[
+				"liminal:backrooms_tiles/backrooms_tile_4",
+				1
+			],
+			[
+				"liminal:backrooms_tiles/backrooms_tile_5",
+				1
+			]
+		]
+	}
+}

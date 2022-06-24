@@ -1,0 +1,60 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.ceiling_light",
+				"texture_width": 16,
+				"texture_height": 16,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "root",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "base",
+					"parent": "root",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [-8, 0, -8],
+							"size": [16, 16, 16],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [16, 16], "material_instance": "base"},
+								"east": {"uv": [0, 0], "uv_size": [16, 16], "material_instance": "base"},
+								"south": {"uv": [0, 0], "uv_size": [16, 16], "material_instance": "base"},
+								"west": {"uv": [0, 0], "uv_size": [16, 16], "material_instance": "base"},
+								"up": {"uv": [16, 16], "uv_size": [-16, -16], "material_instance": "base_top"},
+								"down": {"uv": [16, 16], "uv_size": [-16, -16], "material_instance": "base_bottom"}
+							}
+						}
+					]
+				},
+				{
+					"name": "light",
+					"parent": "root",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [-8, 0, -8],
+							"size": [16, 16, 16],
+							"inflate": -0.1,
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [16, 16], "material_instance": "light"},
+								"east": {"uv": [0, 0], "uv_size": [16, 16], "material_instance": "light"},
+								"south": {"uv": [0, 0], "uv_size": [16, 16], "material_instance": "light"},
+								"west": {"uv": [0, 0], "uv_size": [16, 16], "material_instance": "light"},
+								"up": {"uv": [16, 16], "uv_size": [-16, -16], "material_instance": "light"},
+								"down": {"uv": [16, 16], "uv_size": [-16, -16], "material_instance": "light"}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,34 @@
+## World Beyond - 2022
+## English - United States
+
+## Pack Manifest ##
+pack.name=§oLiminal§r
+pack.description=T
+
+## Items ##
+### --------- ###
+### --------- ###
+
+## Entities ##
+
+## Tile Entities ##
+
+## Tiles ##
+tile.liminal:level_1_carpet.name=Backrooms Carpet
+tile.liminal:level_1_ceiling.name=Backrooms Ceiling
+tile.liminal:level_1_ceiling_vent.name=Backrooms Vent
+tile.liminal:level_1_wall.name=Backrooms Wall
+tile.liminal:level_1_wall_border.name=Backrooms Wall End
+tile.liminal:level_1_lights.name=Backrooms Ceiling Lights 
+tile.liminal:level_1_lights.flickering_1.name=Faulty Backrooms Ceiling Lights 
+
+tile.liminal:level_2_carpet.name=Office Carpet
+tile.liminal:level_2_ceiling.name=Office Ceiling
+tile.liminal:level_2_wall.name=Office Wall
+tile.liminal:level_2_wall_border.name=Office Wall End
+
+## Interactions ##
+
+## Loading Messages ##
+
+## Miscellaneous ##

@@ -1,0 +1,99 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:block": {
+        "description": {
+            "identifier": "liminal:level_1_lights.flickering_1",
+            "properties": {
+                "liminal:light_state": [
+                    0,
+                    1
+                ]
+            }
+        },
+        "permutations": [
+            {
+                "condition": "query.block_property('liminal:light_state') == 0",
+                "components": {
+                    "minecraft:block_light_emission": 0.8,
+                    "minecraft:block_light_filter": 0
+                }
+            },
+            {
+                "condition": "query.block_property('liminal:light_state') == 1",
+                "components": {
+                    "minecraft:block_light_emission": 0.0,
+                    "minecraft:block_light_filter": 0
+                }
+            }
+        ],
+        "components": {
+            "minecraft:ticking": {
+                "looping": true,
+                "range": [
+                    0.33,
+                    1.0
+                ],
+                "on_tick": {
+                    "event": "liminal:state_switch"
+                }
+            },
+            "minecraft:geometry": "geometry.ceiling_light",
+            "minecraft:material_instances": {
+                "*": {
+                    "ambient_occlusion": true,
+                    "face_dimming": true,
+                    "render_method": "alpha_test",
+                    "texture": "level_1_ceiling"
+                },
+                "light": {
+                    "ambient_occlusion": false,
+                    "face_dimming": false,
+                    "render_method": "alpha_test",
+                    "texture": "level_1_lights.flickering_1"
+                },
+                "base": {
+                    "ambient_occlusion": true,
+                    "face_dimming": true,
+                    "render_method": "alpha_test",
+                    "texture": "level_1_ceiling"
+                },
+                "base_top": {
+                    "ambient_occlusion": true,
+                    "face_dimming": true,
+                    "render_method": "alpha_test",
+                    "texture": "level_1_ceiling"
+                },
+                "base_bottom": {
+                    "ambient_occlusion": true,
+                    "face_dimming": true,
+                    "render_method": "alpha_test",
+                    "texture": "level_1_lights.opening"
+                }
+            },
+            "tag:wool": {},
+            "minecraft:destroy_time": 100000.0,
+            "minecraft:explosion_resistance": 100000,
+            "minecraft:creative_category": {
+                "category": "Construction"
+            }
+        },
+        "events": {
+            "liminal:state_switch": {
+                "sequence": [
+                    {
+                        "condition": "query.block_property('liminal:light_state') == 0",
+                        "set_block_property": {
+                            "liminal:light_state": 1
+                        }
+                    },
+                    {
+                        "condition": "query.block_property('liminal:light_state') == 1",
+                        "set_block_property": {
+                            "liminal:light_state": 0
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

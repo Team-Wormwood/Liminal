@@ -1,0 +1,64 @@
+{
+    "format_version": [
+        1,
+        1,
+        0
+    ],
+    "liminal:level_1_carpet": {
+        "isotropic": true,
+        "textures": "level_1_carpet",
+        "sound": "moss_carpet"
+    },
+    "liminal:level_1_ceiling": {
+        "isotropic": false,
+        "textures": "level_1_ceiling",
+        "sound": "stone"
+    },
+    "liminal:level_1_ceiling_vent": {
+        "isotropic": false,
+        "sound": "metal",
+        "textures": {
+            "down": "level_1_ceiling_vent",
+            "side": "level_1_ceiling",
+            "up": "level_1_ceiling"
+        }
+    },
+    "liminal:level_1_wall": {
+        "isotropic": false,
+        "textures": "level_1_wall",
+        "sound": "deepslate"
+    },
+    "liminal:level_1_wall_border": {
+        "isotropic": false,
+        "textures": "level_1_wall_border",
+        "sound": "deepslate"
+    },
+    "liminal:level_1_lights": {
+        "isotropic": false,
+        "sound": "glass"
+    },
+    "liminal:level_1_lights.flickering_1": {
+        "isotropic": false,
+        "sound": "glass"
+    },
+    "liminal:level_2_carpet": {
+        "isotropic": false,
+        "textures": "level_2_carpet",
+        "sound": "moss_carpet"
+    },
+    "liminal:level_2_ceiling": {
+        "isotropic": false,
+        "textures": "level_2_ceiling",
+        "sound": "wood"
+    },
+    "liminal:level_2_wall": {
+        "isotropic": false,
+        "textures": "level_2_wall",
+        "sound": "deepslate"
+    },
+    "liminal:level_2_wall_border": {
+        "isotropic": false,
+        "textures": "level_2_wall_border",
+        "sound": "deepslate"
+    }
+}

@@ -1,0 +1,46 @@
+{
+	"format_version": "1.13.0",
+	"minecraft:feature_rules": {
+		"description": {
+			"identifier": "liminal:backrooms_ceiling_rules",
+			"places_feature": "liminal:backrooms_ceiling_feature"
+		},
+		"conditions": {
+			"placement_pass": "before_sky_pass",
+			"minecraft:biome_filter": [
+				{
+					"any_of": [
+						{
+							"test": "has_biome_tag",
+							"operator": "==",
+							"value": "overworld"
+						},
+						{
+							"test": "has_biome_tag",
+							"operator": "==",
+							"value": "overworld_generation"
+						}
+					]
+				}
+			]
+		},
+		"distribution": {
+			"iterations": 256,
+			"y": 260,
+			"x": {
+				"distribution": "fixed_grid",
+				"extent": [
+					0,
+					15
+				]
+			},
+			"z": {
+				"distribution": "fixed_grid",
+				"extent": [
+					0,
+					15
+				]
+			}
+		}
+	}
+}

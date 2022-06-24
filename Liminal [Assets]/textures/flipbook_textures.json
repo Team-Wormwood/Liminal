@@ -1,0 +1,7 @@
+[
+	{
+		"flipbook_texture": "textures/blocks/level_1_lights_flickering_1",
+		"atlas_tile": "level_1_lights.flickering_1",
+		"ticks_per_frame": 200
+	}
+]

@@ -1,0 +1,43 @@
+{
+    "num_mip_levels": 0,
+    "padding": 0,
+    "resource_pack_name": "vanilla",
+    "texture_data": {
+        "level_1_carpet": {
+            "textures": "textures/blocks/level_1_carpet"
+        },
+        "level_1_ceiling": {
+            "textures": "textures/blocks/level_1_ceiling"
+        },
+        "level_1_ceiling_vent": {
+            "textures": "textures/blocks/level_1_vent"
+        },
+        "level_1_lights": {
+            "textures": "textures/blocks/level_1_lights"
+        },
+        "level_1_lights.flickering_1": {
+            "textures": "textures/blocks/level_1_lights.flickering_1"
+        },
+        "level_1_lights.opening": {
+            "textures": "textures/blocks/level_1_lights_opening"
+        },
+        "level_1_wall": {
+            "textures": "textures/blocks/level_1_wall"
+        },
+        "level_1_wall_border": {
+            "textures": "textures/blocks/level_1_wall_border_down"
+        },
+        "level_2_carpet": {
+            "textures": "textures/blocks/level_2_carpet"
+        },
+        "level_2_ceiling": {
+            "textures": "textures/blocks/level_2_ceiling"
+        },
+        "level_2_wall": {
+            "textures": "textures/blocks/level_2_wall"
+        },
+        "level_2_wall_border": {
+            "textures": "textures/blocks/level_2_wall_border_down"
+        }
+    }
+}

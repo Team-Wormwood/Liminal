@@ -1,0 +1,52 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:block": {
+        "description": {
+            "identifier": "liminal:level_1_lights"
+        },
+        "components": {
+            "minecraft:geometry": "geometry.ceiling_light",
+            "minecraft:material_instances": {
+                "*": {
+                    "ambient_occlusion": true,
+                    "face_dimming": true,
+                    "render_method": "alpha_test",
+                    "texture": "level_1_ceiling"
+                },
+                "light": {
+                    "ambient_occlusion": false,
+                    "face_dimming": false,
+                    "render_method": "alpha_test",
+                    "texture": "level_1_lights"
+                },
+                "base": {
+                    "ambient_occlusion": true,
+                    "face_dimming": true,
+                    "render_method": "alpha_test",
+                    "texture": "level_1_ceiling"
+                },
+                "base_top": {
+                    "ambient_occlusion": true,
+                    "face_dimming": true,
+                    "render_method": "alpha_test",
+                    "texture": "level_1_ceiling"
+                },
+                "base_bottom": {
+                    "ambient_occlusion": true,
+                    "face_dimming": true,
+                    "render_method": "alpha_test",
+                    "texture": "level_1_lights.opening"
+                }
+            },
+            "tag:wool": {},
+            "minecraft:block_light_emission": 1,
+            "minecraft:block_light_filter": 0,
+            "minecraft:destroy_time": 100000.0,
+            "minecraft:explosion_resistance": 100000,
+            "minecraft:creative_category": {
+                "category": "Construction"
+            }
+        },
+        "events": {}
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:block": {
+        "description": {
+            "identifier": "liminal:level_1_ceiling"
+        },
+        "components": {
+            "tag:wool": {},
+            "minecraft:block_light_emission": 0.0,
+            "minecraft:block_light_filter": 15,
+            "minecraft:destroy_time": 100000.0,
+            "minecraft:explosion_resistance": 100000,
+            "minecraft:creative_category": {
+                "category": "Construction"
+            }
+        },
+        "events": {}
+    }
+}
