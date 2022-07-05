@@ -1,0 +1,8 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:texture_set": {
+		"color": "level_1_lights_opening",
+		"metalness_emissive_roughness": "level_1_lights_mer",
+		"heightmap": "level_1_lights_heightmap"
+	}
+}

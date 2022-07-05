@@ -25,8 +25,9 @@
 			]
 		},
 		"distribution": {
-			"iterations": "math.Random(3, 7)",
-			"scatter_chance": 85,
+			"iterations": "math.Random(6, 8)",
+			// 85
+			"scatter_chance": 95,
 			"y": 260,
 			"x": {
 				"distribution": "uniform",

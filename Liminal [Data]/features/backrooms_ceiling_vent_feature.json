@@ -4,7 +4,7 @@
 		"description": {
 			"identifier": "liminal:backrooms_ceiling_vent_feature"
 		},
-		"places_block": "liminal:level_1_vent",
+		"places_block": "liminal:level_1_ceiling_vent",
 		"enforce_placement_rules": false,
 		"enforce_survivability_rules": false
 	}
