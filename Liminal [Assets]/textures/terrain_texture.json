@@ -1,7 +1,5 @@
 {
-    "num_mip_levels": 0,
-    "padding": 0,
-    "resource_pack_name": "vanilla",
+    "resource_pack_name": "liminal",
     "texture_data": {
         "level_1_carpet": {
             "textures": "textures/blocks/level_1_carpet"
@@ -16,7 +14,7 @@
             "textures": "textures/blocks/level_1_lights"
         },
         "level_1_lights.flickering_1": {
-            "textures": "textures/blocks/level_1_lights.flickering_1"
+            "textures": "textures/blocks/level_1_lights_flickering_1"
         },
         "level_1_lights.opening": {
             "textures": "textures/blocks/level_1_lights_opening"
